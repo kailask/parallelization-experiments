@@ -34,7 +34,6 @@ class mutex {
             if (i == thread_id) continue;
             int l = label[i].load();
             while (flag[i].load() == true && ((l < my_label) || (l == my_label && i < thread_id))) {
-                this_thread::yield();
                 l = label[i].load();
             };
         }

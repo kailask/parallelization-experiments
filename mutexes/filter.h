@@ -27,7 +27,6 @@ class mutex {
             for (size_t j = 0; j < size; j++) {
                 if (j == thread_id) continue;
                 while (level[j].load() >= i && victim[i].load() == thread_id) {
-                    this_thread::yield();
                 };
             }
         }
