@@ -5,7 +5,7 @@
 #include <thread>
 
 #include "IOQueue.h"
-#include "util.h"
+#include "work.h"
 
 IOQueue Q[NUM_THREADS];
 std::atomic_int finished_threads(0);

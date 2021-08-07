@@ -1,6 +1,8 @@
 
 all:
-	g++ main1.cpp -lpthread -o static
-	g++ main2.cpp -lpthread -o global
-	g++ main3.cpp -lpthread -o stealing
-	g++ main4.cpp -lpthread -o stealing32
+	g++ static.cpp -lpthread -o static.out
+	g++ global.cpp -lpthread -o global.out
+	g++ local.cpp -lpthread -o local.out
+
+clean:
+	rm *.out

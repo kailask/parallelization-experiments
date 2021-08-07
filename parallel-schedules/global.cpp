@@ -3,7 +3,7 @@
 #include <atomic>
 #include <thread>
 
-#include "util.h"
+#include "work.h"
 
 std::atomic_int counter(0);
 void parallel_mult(float* result, int* mult, int size, int tid, int num_threads) {
