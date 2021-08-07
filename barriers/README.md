@@ -25,7 +25,7 @@ void repeated_blur(double *input, double *output, int size, int repeats) {
 
 ```
 make;
-time ./sjbarrier.out 6;
-time ./srbarrier.out 6;
-time ./srobarrier.out 6
+./sjbarrier.out 6;
+./srbarrier.out 6;
+./srobarrier.out 6
 ```
