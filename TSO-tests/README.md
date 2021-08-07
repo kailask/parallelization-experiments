@@ -18,7 +18,7 @@ Check: can %var0 == %var1 == 0 at the end of the execution?
 A simple Dekkers mutex implementation to synchronize a counter in 3 ways:
 1. [SCDekkers.h](SCDekkers.h) - implementation using C++ sequentially consistent memory order.
 2. [RDekkers.h](RDekkers.h) - implementation using C++ relaxed memory order.
-3. [TSODekkers.h](TSODekkers.h) - augmenting C++ relaxed memory order with memory fences to make it sequentially consistent on TSO architectures like x86.
+3. [TSODekkers.h](TSODekkers.h) - C++ relaxed memory order augmented with memory fences to make it sequentially consistent on TSO architectures like x86.
 
 ## Setup
 

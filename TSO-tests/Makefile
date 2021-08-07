@@ -6,7 +6,7 @@ litmus:
 	g++ -std=c++17 consistent.cpp -lpthread -o consistent.out -O3
 
 dekkers:
-	g++ -std=c++17 -O3 -DSCDEKKERS  dekkers.cpp -lpthread -o scdekker.out
+	g++ -std=c++17 -O3 -DSCDEKKERS  dekkers.cpp -lpthread -o scdekkers.out
 	g++ -std=c++17 -O3 -DRDEKKERS   dekkers.cpp -lpthread -o rdekkers.out
 	g++ -std=c++17 -O3 -DTSODEKKERS dekkers.cpp -lpthread -o tsodekkers.out
 
