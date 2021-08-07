@@ -29,3 +29,8 @@ make rw_mutex;
 ./rw_mutex.out;
 ./fair_rw_mutex.out;
 ```
+
+## Links
+
+* [Bakery Algorithm](https://en.wikipedia.org/wiki/Lamport's_bakery_algorithm)
+* [Peterson's Algorithm](https://en.wikipedia.org/wiki/Peterson's_algorithm)
