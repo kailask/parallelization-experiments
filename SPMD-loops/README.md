@@ -1,6 +1,6 @@
-# SPMD Loop Comparision
+# SPMD Loops
 
-Performance comparision of different Same-Program Multiple-Data loops incrementing values in an array.
+Performance comparison of different Same-Program Multiple-Data loops incrementing values in an array.
 
 1. Sequential execution
 2. Round-robin mapping of thread:index
