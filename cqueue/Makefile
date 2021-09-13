@@ -3,5 +3,5 @@ all:
 	g++  test-async.cpp -pthread -o asyncQueue.out
 
 clean:
-	*.out
+	rm *.out
 

@@ -7,6 +7,7 @@ An assortment of small projects in parallelization and synchronization mechanism
 * Concurrent Data Structures
 * Barriers
 * Memory Consistency Models
+* Cache Locality
 
 ## Acknowledgements
 
